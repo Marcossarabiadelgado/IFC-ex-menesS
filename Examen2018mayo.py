@@ -21,13 +21,13 @@ r,F = Ffun(x,y,R,Q)
 # Gráfico
 plt.figure()
 
-plt.subplot(1,2,1)
+plt.subplot(2,1,1)
 plt.plot(r[:,10],F[:,10])
 plt.xlabel('r')
 plt.ylabel('F')
 plt.title('Columna de índice 10')
 
-plt.subplot(1,2,2)
+plt.subplot(2,1,2)
 plt.plot(r[-1,:],F[-1,:])
 plt.xlabel('r')
 plt.ylabel('F')
